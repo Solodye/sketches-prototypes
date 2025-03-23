@@ -1,0 +1,47 @@
+/*
+ * Copyright 2006-2019 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package net.i18ndev.spring.batch.prototypes.threadlevelreading;
+
+import net.i18ndev.spring.batch.dao.CustomerCredit;
+import org.springframework.batch.item.ItemProcessor;
+import org.springframework.lang.Nullable;
+import org.springframework.stereotype.Component;
+
+import java.math.BigDecimal;
+
+/**
+ * Increases customer's credit by a fixed amount.
+ *
+ * @author Robert Kasanicky
+ */
+
+public class CustomerCreditIncreaseProcessor implements ItemProcessor<CustomerCredit, CustomerCredit> {
+
+	@Nullable
+	@Override
+	public CustomerCredit process(CustomerCredit item) throws Exception {
+		Thread.sleep(2000);
+		System.out.println(item + " " + Thread.currentThread().getName());
+
+		if(item.getName().endsWith("customer15")) {
+			System.out.println("Current Thread " + Thread.currentThread().getName() + " encountered 15, start sleep");
+			Thread.sleep(1000000);
+		}
+		return item;
+	}
+
+}
