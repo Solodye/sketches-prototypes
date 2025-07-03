@@ -1,0 +1,30 @@
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+body {
+  background-color: #f3f5f7;
+}
+
+.header {
+  height: 100px;
+  background-color: #fff;
+}
+
+.header .wrapper {
+  padding-top: 29px;
+  display: flex;
+}
+
+.logo a {
+  width: 195px;
+  height: 41px;
+  display: block;
+  font-size: 0px;
+  background-image: url(../images/logo.png);
+}
+
+.navigate {
+  margin-left: 102px;
+}
