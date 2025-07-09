@@ -28,3 +28,23 @@ body {
 .navigate {
   margin-left: 102px;
 }
+
+.navigate ul {
+  display: flex;
+}
+
+.navigate li {
+  margin-right: 24px;
+}
+
+.navigate li a {
+  display: block;
+  font-size: 19px;
+  padding: 6px 8px;
+  line-height: 27px; /* it seems no effect, just because the design draft said that there is line height, add it  */
+}
+
+.navigate li .active,
+.navigate li a:hover {
+  border-bottom: 2px solid #00a4ff;
+}
