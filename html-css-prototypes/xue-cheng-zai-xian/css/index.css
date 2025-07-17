@@ -73,8 +73,8 @@ body {
 }
 
 .search button {
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
   background-image: url(../images/search.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -89,4 +89,19 @@ body {
 
 .search button:hover {
   background-color: #e3e5e7;
+}
+
+.user {
+  margin-left: 32px;
+  margin-top: 4px;
+}
+
+.user img {
+  vertical-align: middle;
+}
+
+.user .name {
+  margin-left: 7px;
+  font-size: 16px;
+  color: #666;
 }
