@@ -119,7 +119,7 @@ body {
   justify-content: space-between;
 }
 
-.banner .wrapper .left {
+.banner .left {
   padding: 3px 20px;
   width: 191px;
   height: inherit;
@@ -127,11 +127,16 @@ body {
 }
 
 
-.banner .wrapper .left a {
+.banner .left a {
   display: block; /* If remove this display block, the right arrow won't take over the right side */
   height: 46px;
   line-height: 46px;
   background: url(../images/right.png) no-repeat right center;
   font-size: 16px;
   color: #fff;
+}
+
+.banner .left a:hover {
+  background-image: url(../images/right-hover.png);
+  color: #00a4ff;
 }
