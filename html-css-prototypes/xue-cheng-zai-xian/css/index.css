@@ -105,3 +105,33 @@ body {
   font-size: 16px;
   color: #666;
 }
+
+.banner {
+  height: 420px;
+  background-color: #0092cb;
+}
+
+.banner .wrapper {
+  height: inherit;
+  background-image: url(../uploads/banner.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner .wrapper .left {
+  padding: 3px 20px;
+  width: 191px;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+
+
+.banner .wrapper .left a {
+  display: block; /* If remove this display block, the right arrow won't take over the right side */
+  height: 46px;
+  line-height: 46px;
+  background: url(../images/right.png) no-repeat right center;
+  font-size: 16px;
+  color: #fff;
+}
