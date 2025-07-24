@@ -140,3 +140,60 @@ body {
   background-image: url(../images/right-hover.png);
   color: #00a4ff;
 }
+
+.banner .right {
+  width: 218px;
+  height: 305px;
+  margin-top: 60px;
+  background-color: #209dd5;
+  border-radius: 10px;
+}
+
+.banner .right h3 {
+  margin-left: 20px;
+  line-height: 48px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.banner .right .class-schedule {
+  padding: 14px;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 257px;
+}
+
+.banner .right .class-schedule div {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.banner .right .class-schedule dt {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.banner .right .class-schedule dd {
+  font-size: 12px;
+  line-height: 16px;
+  color: #7d7d7d;
+  margin-bottom: 8px;
+}
+
+.banner .right .class-schedule .class-status {
+  color: #00a4ff;
+}
+
+.banner .right .class-schedule a {
+  display: block;
+  background-color: #00a4ff;
+  height: 32px;
+  border-radius: 15px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+} 
