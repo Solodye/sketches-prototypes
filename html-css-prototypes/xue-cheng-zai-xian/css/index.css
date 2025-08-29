@@ -233,3 +233,65 @@ body {
   font-size: 16px;
   color: #00a4ff;
 }
+
+.course-list-set {
+  margin-top: 15px;
+}
+
+.course-list-top-bar {
+  display: flex; 
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+}
+
+
+.course-list-top-bar h3 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.course-list-set .course-list-top-bar .see-all {
+  padding-right: 20px;
+  background: url(../images/more.png) no-repeat right center;
+  font-size: 14px;
+  color: #999;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.course-list-set .course-list li {
+  background-color: #fff;
+  width: 228px;
+  height: 271px;
+  margin-bottom: 14px;
+}
+
+.course-list-set .course-list .course-info {
+  padding: 20px;
+  height: 115px;
+}
+
+.course-list-set .course-list .course-info h4 {
+  font-size: 14px;
+  line-height: 20px;
+  height: 40px; /* limit the height to 40px, if the title is too long, it will goes to next line */
+  font-weight: 400;
+}
+
+.course-list-set .course-list .course-info span {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.course-list-set .course-list .course-info .meta {
+  color: #999;
+}
+
+.course-list-set .course-list .course-info .meta .level {
+  color: #fa6400;
+}
