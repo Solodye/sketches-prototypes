@@ -264,6 +264,11 @@ body {
   justify-content: space-between;
 }
 
+.course-list .img-box {
+  height: 156px;
+  overflow: hidden; /* Optional: hides overflow if image is larger */
+}
+
 .course-list li {
   background-color: #fff;
   width: 228px;
@@ -366,7 +371,7 @@ body {
   line-height: 23px;
 }
 
-.footer .right dd li a {
+.footer .right dd a {
   font-size: 14px;
   color: #666;
   line-height: 24px;
