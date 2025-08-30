@@ -251,7 +251,7 @@ body {
   font-weight: 400;
 }
 
-.course-list-set .course-list-top-bar .see-all {
+.course-list-top-bar .see-all {
   padding-right: 20px;
   background: url(../images/more.png) no-repeat right center;
   font-size: 14px;
@@ -264,34 +264,110 @@ body {
   justify-content: space-between;
 }
 
-.course-list-set .course-list li {
+.course-list li {
   background-color: #fff;
   width: 228px;
   height: 271px;
   margin-bottom: 14px;
 }
 
-.course-list-set .course-list .course-info {
+.course-list .course-info {
   padding: 20px;
   height: 115px;
 }
 
-.course-list-set .course-list .course-info h4 {
+.course-list .course-info h4 {
   font-size: 14px;
   line-height: 20px;
   height: 40px; /* limit the height to 40px, if the title is too long, it will goes to next line */
   font-weight: 400;
+  margin-bottom: 13px;
 }
 
-.course-list-set .course-list .course-info span {
+.course-list .course-info span {
   font-size: 14px;
   line-height: 20px;
 }
 
-.course-list-set .course-list .course-info .meta {
+.course-list .course-info .meta {
   color: #999;
 }
 
-.course-list-set .course-list .course-info .meta .level {
+.course-list .course-info .meta .level {
   color: #fa6400;
+}
+
+.recommendation .course-list-top-bar .filter {
+  display: flex;
+}
+
+.recommendation .filter li {
+  margin-right: 60px;
+  font-size: 16px;
+}
+
+.recommendation .active {
+   color: #00a4ff;
+}
+
+
+.course-list .right .top {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.course-list .right .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #fff;
+  margin-top: 60px;
+  padding-top: 60px;
+  height: 273px;
+}
+
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .left .footer-text {
+  margin-top: 24px;
+  margin-bottom: 14px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #666;
+}
+
+.footer .left .download {
+  display: block;
+  width: 120px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 16px;
+  color: #00a4ff;
+  border: 1px solid #00a4ff;
+}
+
+.footer .right {
+  display: flex;
+}
+
+.footer .right dl {
+  margin-left: 130px;
+}
+
+.footer .right dt {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.footer .right dd li a {
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
 }
